@@ -1,0 +1,65 @@
+Question Set 1
+
+Genus is a superclass of Species. Species is a child class to Genus.
+Species is a parent class of Specimen objects?
+?
+1. The programming team benefits from increased readability from implementing OOP inheritance. This is because the code becomes more structured and easy to understand. 2. Furthermore, the team benefits from reusability; the team does not have to write the same code for different classes, and is hence also cleaner, making it easier to understand.
+  i. toString is defined in both classes, however if implemented in the child class, that is always called unless specifically stated to call the super classes toString method. Thus, the Species class toString method is called.  ii. Overriding
+
+
+Question Set 2
+
+Encapsulation is hiding its data members with methods within a class such that its direct access is restricted to private members of that class.
+1. Encapsulation provides security as it prevents direct access of private variables from outside of the class. These private members can only be modified through a public interface  when accessed from outside of the class. 2. Encapsulation promotes the maintainability of a codebase, as code changes are made independently in one class without affecting others.
+getName()
+cageNumber
+.                         
+1. Benefits from code reusability, hence the different Species must not redefine all the code from its.  2. A disadvantage is that the inherited class’s members may go unused in a subclass, leading to wasted resources.
+
+
+Question Set 3
+
+Within the superclass, add a private String member called description. This string should be initialised within the constructor. Then, a setter and getter method must be added. Add public String getDescription() and public void setDescription(String s). These members are passed to the subclasses and to each animal object. 
+                    
+ LinkedList<String> allSpecies = new LinkedList<String>  Loop through each animal in the list      if animal species IS NOT AVAILABLE IN allSpecies             Add animal species to allSpecies      end if  end loop RETURN allSpecies
+
+Question Set 4
+
+1. Behaviours are defined by a set of value and set of operations 2. Abstract data types export a type.
+
+B.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+D.
